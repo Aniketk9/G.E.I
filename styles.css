@@ -1,0 +1,53 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, fantasy;
+  background-color: #f0f0f0;
+}
+
+header {
+  font-family: 'FontName', fantasy;
+  background-color: #ededb6;
+  color: rgb(233, 17, 17);
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+header p {
+  font-size: 18px;
+}
+
+section {
+  padding: 30px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+/* Add this to center-align the content */
+#about {
+  text-align: center;
+}
+
+/* Add this to center-align the logo */
+#about img {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}
